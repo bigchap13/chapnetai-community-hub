@@ -6,6 +6,30 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/founder-story")
+def founder_story():
+    return render_template("founder_story.html")
+
+@app.route("/portfolio")
+def portfolio():
+    return render_template("portfolio.html")
+
+@app.route("/joshuas-journey")
+def joshuas_journey():
+    return render_template("joshuas_journey.html")
+
+@app.route("/grant-finder")
+def grant_finder():
+    return render_template("grant_finder.html")
+
+@app.route("/ecosystem-map")
+def ecosystem_map():
+    return render_template("ecosystem_map.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
 @app.route("/health")
 def health():
     return {

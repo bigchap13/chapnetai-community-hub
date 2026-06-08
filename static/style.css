@@ -160,3 +160,21 @@ footer {
         text-align: left;
     }
 }
+
+a {
+    color: #65d6ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page a {
+    color: #65d6ff;
+}
+
+.page a:visited {
+    color: #65d6ff;
+}
