@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+*.bak_*
+*.bak
+
+*.log
+nohup.out
+
+.env
+.env.*
