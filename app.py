@@ -1,6 +1,8 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 
 app = Flask(__name__)
+
+PORTFOLIO_URL = "http://127.0.0.1:5064/"
 
 @app.route("/")
 def home():
@@ -12,7 +14,7 @@ def founder_story():
 
 @app.route("/portfolio")
 def portfolio():
-    return render_template("portfolio.html")
+    return redirect(PORTFOLIO_URL)
 
 @app.route("/joshuas-journey")
 def joshuas_journey():
@@ -21,6 +23,14 @@ def joshuas_journey():
 @app.route("/grant-finder")
 def grant_finder():
     return render_template("grant_finder.html")
+
+@app.route("/watchman")
+def watchman():
+    return render_template("watchman.html")
+
+@app.route("/local-loop")
+def local_loop():
+    return render_template("local_loop.html")
 
 @app.route("/ecosystem-map")
 def ecosystem_map():
