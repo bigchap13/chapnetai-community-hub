@@ -6,8 +6,12 @@ nohup: ignoring input
 [33mPress CTRL+C to quit[0m
  * Restarting with watchdog (polling)
  * Debugger is active!
- * Debugger PIN: 129-205-001
-127.0.0.1 - - [08/Jun/2026 09:35:56] "HEAD /contact HTTP/1.1" 200 -
-127.0.0.1 - - [08/Jun/2026 09:36:06] "GET /contact HTTP/1.1" 200 -
-127.0.0.1 - - [08/Jun/2026 09:36:06] "GET /static/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [08/Jun/2026 09:36:16] "GET /contact HTTP/1.1" 200 -
+ * Debugger PIN: 301-611-582
+127.0.0.1 - - [08/Jun/2026 09:41:26] "HEAD /ecosystem-map HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jun/2026 09:41:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jun/2026 09:41:36] "GET /ecosystem-map HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jun/2026 09:41:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jun/2026 09:41:46] "GET /ecosystem-map HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jun/2026 09:41:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jun/2026 09:42:32] "GET /portfolio HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jun/2026 09:42:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
